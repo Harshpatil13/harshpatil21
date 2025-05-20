@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Patil - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-indigo-600 to-indigo-800 dark:from-indigo-800 dark:to-indigo-600 shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl text-white font-bold">Harsh Patil</h1>
+      <ul class="flex gap-6 text-sm text-white">
+        <li><a href="#welcome" class="hover:text-emerald-500">Welcome</a></li>
+        <li><a href="#about" class="hover:text-emerald-500">About</a></li>
+        <li><a href="#experience" class="hover:text-emerald-500">Experience</a></li>
+        <li><a href="#skills" class="hover:text-emerald-500">Skills</a></li>
+        <li><a href="#contact" class="hover:text-emerald-500">Contact</a></li>
+        <li><a href="#Send ME a Message" class="hover:text-emerald-500">Send ME a Message</a></li>
+        <li>
+          <button id="theme-toggle" class="ml-4 px-2 py-1 border rounded text-sm text-white">
+            Toggle Theme
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="py-16 bg-gradient-to-r from-indigo-700 to-indigo-800 text-white text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold mb-4">Hello! I'm Harsh Patil 👋</h2>
+      <p class="mb-6">Welcome to my personal portfolio website.</p>
+      <!-- Profile Image -->
+      <div class="flex justify-center mb-6">
+        <img src="images/profile.jpg" alt="Harsh Patil" class="w-40 h-40 object-cover rounded-full shadow-lg">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 bg-white dark:bg-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl text-indigo-700 dark:text-indigo-300 font-bold mb-6">About Me</h2>
+      <p><strong>Name:</strong> Harsh Patil</p>
+      <p><strong>Location:</strong> Vasai, India</p>
+      <p><strong>Education:</strong> Computer Engineering</p>
+      <p><strong>Languages:</strong> English, Hindi, Marathi</p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 bg-gray-100 dark:bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl text-indigo-700 dark:text-indigo-300 font-bold mb-6">Experience</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="text-xl font-semibold">Software Developer Intern</h3>
+          <p class="text-gray-600 dark:text-gray-400"> Tech Solutions | Jun 2024 - Aug 2024</p>
+          <p>Worked on developing and maintaining web applications using React and Node.js.</p>
+        </li>
+        <li>
+          <h3 class="text-xl font-semibold">Freelance Web Developer</h3>
+          <p class="text-gray-600 dark:text-gray-400">Self-employed | Jan 2023 - Present</p>
+          <p>Designed and developed custom websites for small businesses and startups.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-16 bg-white dark:bg-gray-800">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl text-indigo-700 dark:text-indigo-300 font-bold mb-6">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- HTML5 -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" class="w-12 h-12 mr-4">
+        <span>HTML5</span>
+      </div>
+      <!-- CSS3 -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" class="w-12 h-12 mr-4">
+        <span>CSS3</span>
+      </div>
+      <!-- JavaScript -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" class="w-12 h-12 mr-4">
+        <span>JavaScript</span>
+      </div>
+      <!-- React -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" class="w-12 h-12 mr-4">
+        <span>React</span>
+      </div>
+      <!-- Node.js -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" class="w-12 h-12 mr-4">
+        <span>Node.js</span>
+      </div>
+      <!-- Python -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" class="w-12 h-12 mr-4">
+        <span>Python</span>
+      </div>
+      <!-- Git -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" class="w-12 h-12 mr-4">
+        <span>Git</span>
+      </div>
+      <!-- Docker -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" class="w-12 h-12 mr-4">
+        <span>Docker</span>
+      </div>
+      <!-- MongoDB -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" class="w-12 h-12 mr-4">
+        <span>MongoDB</span>
+      </div>
+      <!-- MySQL -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/mysql.png" alt="MySQL" class="w-12 h-12 mr-4">
+        <span>MySQL</span>
+      </div>
+      <!-- Tailwind CSS -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="Tailwind CSS" class="w-12 h-12 mr-4">
+        <span>Tailwind CSS</span>
+      </div>
+      <!-- Figma -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/figma.png" alt="Figma" class="w-12 h-12 mr-4">
+        <span>Figma</span>
+      </div>
+      <!-- VS Code -->
+      <div class="flex items-center">
+        <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code" class="w-12 h-12 mr-4">
+        <span>VS Code</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+       
+
+ <!-- Contact Section -->
+<section id="contact" class="py-16 bg-white dark:bg-gray-800">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl text-indigo-700 dark:text-indigo-300 font-bold mb-6">Contact Me</h2>
+    <p class="mb-6">Feel free to reach out to me through any of the following channels:</p>
+
+    <!-- Contact Information -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Address -->
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-map-marker-alt text-indigo-600 dark:text-indigo-300 text-3xl"></i>
+        <div>
+          <h3 class="font-semibold">Address</h3>
+          <p class="text-gray-600 dark:text-gray-400">Vasai, Maharashtra, India</p>
+        </div>
+      </div>
+
+
+      <!-- Email -->
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-envelope text-indigo-600 dark:text-indigo-300 text-3xl"></i>
+        <div>
+          <h3 class="font-semibold">Email</h3>
+          <p class="text-gray-600 dark:text-gray-400">223harsh7012@sjcem.edu.in</p>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-phone-alt text-indigo-600 dark:text-indigo-300 text-3xl"></i>
+        <div>
+          <h3 class="font-semibold">Phone</h3>
+          <p class="text-gray-600 dark:text-gray-400">+91 9168909918</p>
+        </div>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="flex items-center space-x-4">
+        <i class="fab fa-linkedin text-indigo-600 dark:text-indigo-300 text-3xl"></i>
+        <div>
+          <h3 class="font-semibold">LinkedIn</h3>
+          <p class="text-gray-600 dark:text-gray-400">
+            <a href="https://www.linkedin.com/in/harsh-patil" target="_blank" class="hover:text-indigo-500">linkedin.com/in/harsh-patil</a>
+          </p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!-- Contact Form -->
+    <div class="mt-12">
+      <h3 class="text-2xl font-semibold text-indigo-700 dark:text-indigo-300 mb-4">Send Me a Message</h3>
+      <form action="#" method="POST" class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Full Name</label>
+            <input type="text" id="name" name="name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Email Address</label>
+            <input type="email" id="email" name="email" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100">
+          </div>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Your Message</label>
+          <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="contact" class="text-center">
+      <h2 class="text-3xl font-semibold mb-6 text-indigo-600">Connect with Me</h2>
+      <div class="space-y-3 text-lg">
+        <a href="tel:+91 9168909918" class="text-indigo-500 hover:underline block">📞 +91 9168909918</a>
+        <a href="mailto:223harsh7012@sjcem.edu.in" class="text-indigo-500 hover:underline block">📧 223harsh7012@sjcem.edu.in</a>
+        <a href="https://wa.me/9168909918" class="text-indigo-500 hover:underline block" target="_blank">💬 WhatsApp</a>
+        <a href="https://www.linkedin.com/in/harsh-patil-78b076297/" class="text-indigo-500 hover:underline block" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/Harshpatil13" class="text-indigo-500 hover:underline block" target="_blank">💻 GitHub</a>
+        <iframe src="https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-64 mt-4 rounded-md border border-indigo-300"></iframe>
+      </div>
+    </section>
+
+
+
+::contentReference[oaicite:0]{index=0}
